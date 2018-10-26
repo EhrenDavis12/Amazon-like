@@ -1,4 +1,4 @@
-var InquirerWrapper = require("../java/utils/inquirerWrapper.js");
+var InquirerWrapper = require("./utils/inquirerWrapper.js");
 
 var inquirerHandler = function () {
     

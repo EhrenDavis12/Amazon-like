@@ -1,5 +1,5 @@
 var MySqlWrapper = require("./java/utils/mysqlWrapper.js");
-var InquireHandler = require("./java/inquirerHandler.js");
+var InquireHandler = require("./java/inquirerHandlerCustomer");
 var inquirer = new InquireHandler();
 
 function main() {
