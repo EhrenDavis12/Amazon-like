@@ -8,11 +8,11 @@ In this activity, you'll be creating an Amazon-like storefront with the MySQL sk
 ## run
 #### npm install.
 #### Open an SQL window to your database. 
-#### run Schema.sql on it
+#### run Schema.sql on it.
 #### run quick_DB_populate.sql on it. 
 
-node bamazonCustomer.js for the customer module
-node bamazonManager.js for the manager module
+#### node bamazonCustomer.js for the customer module.
+#### node bamazonManager.js for the manager module.
 
 ## videos of code
 ### customer module video
