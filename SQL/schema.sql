@@ -15,8 +15,7 @@ create table product (
     custom_id varchar(255),
 	department_name varchar(255),
 	price decimal(10,2),
-	stock_quantity integer,
-    index(product_name)
+	stock_quantity integer
 );
 alter table product add index(product_name);
 
