@@ -19,10 +19,10 @@ var inquirerHandler = function () {
 
     _this.getInputBuyingQuestions = function (callBackFunc) {
         var inquirer = new InquirerWrapper();
-        inquirer.testDebugAnswers = {
+        /* inquirer.testDebugAnswers = {
             productID: "1234b",
             quantity: "5"
-        }
+        } */
         inquirer.getInput(_this.getBuyingQuestions, callBackFunc);
     }
 

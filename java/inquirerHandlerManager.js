@@ -69,22 +69,22 @@ var inquirerHandler = function () {
 
     _this.getInputAddQuantity = function (callBackFunc) {
         var inquirer = new InquirerWrapper();
-        inquirer.testDebugAnswers = {
+        /* inquirer.testDebugAnswers = {
             productID: "1234b",
             quantity: "5"
-        }
+        } */
         inquirer.getInput(_this.getAddQuantity, callBackFunc);
     }
 
     _this.getInputAddItem = function (callBackFunc) {
         var inquirer = new InquirerWrapper();
-        inquirer.testDebugAnswers = {
+        /* inquirer.testDebugAnswers = {
             name: "moon",
             productID: "cheese",
             department: "food",
             price: "5.5",
             quantity: "2"
-        }
+        } */
         inquirer.getInput(_this.getAddItem, callBackFunc);
     }
 }
